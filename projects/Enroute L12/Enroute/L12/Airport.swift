@@ -1,7 +1,7 @@
 import CoreData
 import Combine
 
-extension Airport: Identifiable, Comparable {
+extension Airport: Comparable {
   static func withICAO(_ icao: String, context: NSManagedObjectContext) -> Airport {
     // look up icao in Core Data
     let request = fetchRequest(NSPredicate(format: "icao_ = %@", icao))
