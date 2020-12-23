@@ -1,4 +1,1 @@
-secrets.txt filter=git-crypt diff=git-crypt
-
-*.key filter=git-crypt diff=git-crypt
-secretdir/** filter=git-crypt diff=git-crypt
+FlightawareInfo.xcconfig filter=git-crypt diff=git-crypt
