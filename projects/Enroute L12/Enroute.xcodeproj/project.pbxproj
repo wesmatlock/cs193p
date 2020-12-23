@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62499C902593DA410012FD8B /* FlightawareInfo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FlightawareInfo.xcconfig; sourceTree = "<group>"; };
 		DA47A9BC2469F34800C8E13C /* FilterFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
 		DAB658A02467944B00A0F2BB /* Enroute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enroute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB658A32467944B00A0F2BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62499CB82593DB680012FD8B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DAB658B42467944C00A0F2BB /* Info.plist */,
+				62499C902593DA410012FD8B /* FlightawareInfo.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		DA47A9BA2469F27800C8E13C /* FlightAware */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		DAB658A22467944B00A0F2BB /* Enroute */ = {
 			isa = PBXGroup;
 			children = (
+				62499CB82593DB680012FD8B /* Configuration */,
 				DA47A9BC2469F34800C8E13C /* FilterFlights.swift */,
 				DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */,
 				DAB658A72467944B00A0F2BB /* Enroute.xcdatamodeld */,
@@ -113,7 +124,6 @@
 				DAB658A32467944B00A0F2BB /* AppDelegate.swift */,
 				DAB658A52467944B00A0F2BB /* SceneDelegate.swift */,
 				DAB658B12467944C00A0F2BB /* LaunchScreen.storyboard */,
-				DAB658B42467944C00A0F2BB /* Info.plist */,
 				DAB658AE2467944C00A0F2BB /* Preview Content */,
 			);
 			path = Enroute;

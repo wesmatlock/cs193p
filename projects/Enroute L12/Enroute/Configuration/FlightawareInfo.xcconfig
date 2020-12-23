@@ -1,0 +1,4 @@
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+FLIGHT_AWARE_KEY = TempKey-0234809238042
+
